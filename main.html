@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Moving Cards</title>
+  <link rel="stylesheet" href="mainstyle.css">
+  
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Your Name</div>
+      <ul class="social-icons">
+        <li><a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="#" onclick="sharePortfolio()"><i class="fas fa-share-alt"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="card-container">
+      <div class="card">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Explore my journey in web development through interactive visuals.</p>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="card-container">
+      <div class="card">
+        <h2>About Me</h2>
+        <p>
+          I am a passionate web developer with expertise in designing and creating
+          dynamic, responsive websites. I specialize in front-end and back-end
+          development.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="card-container">
+      <div class="card">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Project 1</h3>
+            <p>Details about the first project go here.</p>
+          </div>
+          <div class="project-card">
+            <h3>Project 2</h3>
+            <p>Details about the second project go here.</p>
+          </div>
+          <div class="project-card">
+            <h3>Project 3</h3>
+            <p>Details about the third project go here.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 Your Name. All rights reserved.</p>
+  </footer>
+
+  <!-- Link JavaScript -->
+  <script src="mainscript.js"></script>
+</body>
+</html>
